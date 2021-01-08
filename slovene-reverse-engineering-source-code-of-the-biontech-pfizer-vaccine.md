@@ -47,7 +47,7 @@ BioNTech/Pfizer SARS-CoV-2 mRNA.
 > [@PowerDNS_Bert](https://twitter.com/PowerDNS_Bert)*
 
 Cepivo je tekočina, ki jo injiciramo v roko, kako lahko torej govorimo o
-nejgovi izvorni?
+njegovi izvorni?
 
 To je dobro vprašanje. Da si lahko bolje predstavljamo o čem govorimo, začnimo
 z delčkom izvorne kode cepiva BioNTech/Pfizer, zananega tudi kot
@@ -119,8 +119,8 @@ preglejte digitalno kodo z lastnimi očmi.
 
 Torej, kaj pravzaprav ta izvorna koda naredi?
 -------------------------------
-Ideja cepiva je, da nauči imunski sistem, kako se obvarovati pred patogenom
-brez da oseba zboli. Navadno to storimo z vbrizganjem oslabljenega
+Ideja cepiva je, da nauči imunski sistem, kako se obvarovati pred patogenom, tako
+da oseba ne zboli. Navadno to storimo z vbrizganjem oslabljenega
 virusa. Z dodatkom 'adjuvanta' poženemo imunski sistem v akcijo. Oslabitev virusa
 ponavadi zahteva na milijone
 [jajc](https://en.wikipedia.org/wiki/Attenuated_vaccine) (ali insektov). Pri tem
@@ -173,14 +173,14 @@ Na primer, ta kapa označuje, da naša koda prihaja iz jedra celice. V našem
 primeru to ni res, ker koda prihaja iz cepiva, vendar na ta način prelisičimo
 celico. Kapa daje legitimnost naši kodi, kar jo zaščiti pred uničenjem.
 
-Prvi dva nukleotida `GA` sta kemijsko malce drugačna od preostale RNK.
-V tem smislu `GA` omogoči signalizacijo 'out-of-band'.
+Prva dva nukleotida `GA` sta kemijsko malce drugačna od preostale RNK.
+V tem smislu `GA` omogoči zunajpasovno signalizacijo.
 
 
 5' nekodirajoča regija (5' UTR)
 ------------------------------------
 RNK molekule se lahko berejo zgolj v eno smer. Del kjer se branje začne
-se imenuje 5' ali 'five-prime'. Branje se konča na 3' delu ('three-prime').
+se imenuje 5' ali 'five-prime'. Branje se konča na 3' mestu ('three-prime').
 
 Življenje je osnovano na proteinih (in molekulah narejenih s pomočjo proteinov).
 Recept za te proteine je shranjen v RNK. Prepis RNK v proteine se imenuje
@@ -216,13 +216,13 @@ Sedaj pobiramo sadove fundamentalnih raziskav opravljenih v preteklosti.
 [Raziskovalci](https://twitter.com/PennMedicine/status/1341766354232365059),
 ki so odkrili ta trik s Ψ, so se najprej morali boriti za financiranje njihovega
 [dela](https://www.statnews.com/2020/11/10/the-story-of-mrna-how-a-once-dismissed-idea-became-a-leading-technology-in-the-covid-vaccine-race/) in kasneje za objavo v znanstvenih člankih. Sedaj smo jim vsi
-lahko hvaležni in siguren sem, da jih čakajo
+lahko hvaležni in prepričan sem, da jih čakajo
 [Nobelove nagrade](https://twitter.com/PowerDNS_Bert/status/1329861047168225281).
 
 > Veliko ljudi zanima, ali lahko tudi pravi virus uporabi to Ψ tehniko in
 > prelisiči naš imunski sistem?  Na kratko, to je zelo malo verjetno. Narava
-> nima mašinerije, da sintetizira 1-metil-3'-pseudouridilil nukleotide. 
-> Virusi uporabljajo mašinerijo celic za njihovo razmnoževanje in ta opcija v
+> nima mehanizmov, da sintetizira 1-metil-3'-pseudouridilil nukleotide. 
+> Virusi uporabljajo mehanizme celic za njihovo razmnoževanje in ta opcija v
 > celicah enostavno ne obstaja.  mRNK iz cepiva se hitro razgradi v človeškem
 > telesu, in ni možnosti, da bi se Ψ-modificirana RNK začela podvojevati.
 > Za več informacij preberite "[No, Really, mRNA Vaccines Are Not Going To Affect Your
@@ -247,7 +247,7 @@ Source: [Wikipedia user Bensaccount](https://commons.wikimedia.org/wiki/File:Pro
 Ta proces je prikazan zgoraj. Črn trak spodaj je RNK. Trak, ki nastaja v zelenem
 delu je nastajajoč protein. Stvari, ki prihajajo in odhajajo iz ribosoma so
 aminokisline z nastavki, slednji omogočajo prileganje v RNK. Ribosom se mora
-prijeti na RNK, da jo lahko začne brati. Lahko si predstavljate, da ribosom
+pripeti na RNK, da jo lahko začne brati. Lahko si predstavljate, da ribosom
 ne more začeti branja kar nekje na sredini RNK. 5' UTR tako predstavlja mesto,
 kjer se branje začne ('landing zone').
 
@@ -256,7 +256,7 @@ naj se prepiše? Za cepivo so uporabili UTR, ki naroči ribosomu naj s
 prepisovanjem začne takoj. Ta UTR je osnovan na osnovi [gena za alfa globin](https://www.tandfonline.com/doi/full/10.1080/15476286.2018.1450054). Znano je, da ta gen
 robustno proizvede veliko proteinov. V zadnjih letih, so znanstveniki dodatno
 optimizirali ta UTR (kot je opisano v WHO dokumentu), tako da uporabljen UTR
-ne ustreza čisto alfa globinovemu, ampak je boljši.
+ne ustreza čisto alfa globinovemu, ampak izboljšani različici.
 
 Signalni peptid glikoproteina S
 ---------------------------------
@@ -393,7 +393,7 @@ dober imunski odziv.
 [odkrili](https://twitter.com/KizzyPhD) to zamenjavo, bi morali hoditi na okoli
 in si deliti petke. Iz njih bi morala sijati ogromna količina ponosa. [In vse to bi bilo zelo zasluženo](https://twitter.com/McLellan_Lab/status/1291077489566142464). 
 
-> Updejt! Kontaktirali so me iz [McLellan-ovega
+> Nova novica! Kontaktirali so me iz [McLellan-ovega
 > laboratorija](https://twitter.com/McLellan_Lab/status/1291077489566142464), 
 > to je ena izmed skupin, ki je odkrila prolinsko zamenjavo.
 > Povedali so mi, da je deljenje petk zaenkrat prestavljeno zaradi pandemije
@@ -464,21 +464,22 @@ Sumim, da gre tukaj za dodatno optimizacijo, ki izboljša izražanje proteina.
 
 Povzetek
 -----------
-Spoznali smo mRNK zaporedje cepiva BNT162b2 in v večjem delu vemo, čemu so
+Spoznali smo mRNK zaporedje cepiva BNT162b2 in naučili smo se, čemu so
 posamezni deli zaporedja namenjeni: 
 
  * Kapa 'cap' zagotovi, da RNK izgleda kot normalna mRNK molekula
- * Optimizirana 5' nekodirajoča regija (UTR)
+ * Optimizirana 5' nekodirajoča regija (UTR) poskrbi za boljšo sintezo proteina
  * Optimizirano zaporedje za signalni peptid, ki določa kam bo protein šel
  (100% kopija originalnega virusa)
  * Optimizirano zaporedje za spike protein, z dvema 'prolinskima'
  zamenjavama, ki poskrbita, da ima protein pravo obliko
- * Optimizirana 3' nekodirajoča regija (UTR)
- * Nekoliko skrivnostni poly-A rep z nepojasnjenim 'linker-jem'
+ * Optimizirana 3' nekodirajoča regija (UTR) poskrbi za boljše izražanje proteina
+ * Nekoliko skrivnostni poly-A rep z nepojasnjenim 'linker-jem' je pomemben za
+  stabilnost mRNK
 
 Optimizacija kodonov doda tudi precej G in C v mRNK zaporedje. Uporaba Ψ
 (1-metil-3'-pseudouridilil) namesto U pretenta imunski sistem, da ta ne
-uniči mRNK. mRNK tako 'natrenira' naš imunski sistem, da se lahko uspešno
+uniči mRNK. mRNK tako nauči naš imunski sistem, da se lahko uspešno
 bori proti pravemu virusu.
 
 Nadaljnje branje/viri
